@@ -1,3 +1,14 @@
+# Directories
+bin/
+bin-int/
+
+# Files
+Makefile
+
+# Visual Studio files and folder
+*.sln
+*.vcxproj*
+
 ## OSX artifacts
 .DS_Store
 
@@ -14,7 +25,7 @@ examples/*/Release/*
 examples/*/x64/*
 
 ## Visual Studio artifacts
-.vs
+.vs/
 ipch
 *.opensdf
 *.log
