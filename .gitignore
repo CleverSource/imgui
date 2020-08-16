@@ -1,14 +1,3 @@
-# Directories
-bin/
-bin-int/
-
-# Files
-Makefile
-
-# Visual Studio files and folder
-*.sln
-*.vcxproj*
-
 ## OSX artifacts
 .DS_Store
 
@@ -25,7 +14,7 @@ examples/*/Release/*
 examples/*/x64/*
 
 ## Visual Studio artifacts
-.vs/
+.vs
 ipch
 *.opensdf
 *.log
@@ -58,3 +47,15 @@ examples/example_glut_opengl2/example_glut_opengl2
 examples/example_null/example_null
 examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
+
+# Honey-specific
+# Directories
+bin/
+bin-int/
+
+ # Files
+Makefile 
+
+# Visual Studio files and folder
+*.sln
+*.vcxproj*

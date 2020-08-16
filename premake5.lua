@@ -32,7 +32,7 @@ project "ImGui"
 
     filter "configurations:Debug"
         runtime "Debug"
-        symbols "oon"
+        symbols "on"
 
     filter "configurations:Release"
         runtime "Release"
